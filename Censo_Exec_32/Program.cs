@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Xml.Serialization;
@@ -16,11 +15,11 @@ namespace Censo_Exec_32
         public static DataTable CreateDataTable(List<Censo> arr)
         {
             XmlSerializer serializer = new XmlSerializer(arr.GetType());
-            System.IO.StringWriter sw = new System.IO.StringWriter();
+            StringWriter sw = new StringWriter();
             serializer.Serialize(sw, arr);
-            System.Data.DataSet ds = new System.Data.DataSet();
-            System.Data.DataTable dt = new System.Data.DataTable();
-            System.IO.StringReader reader = new System.IO.StringReader(sw.ToString());
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable();
+            StringReader reader = new StringReader(sw.ToString());
 
             ds.ReadXml(reader);
             return ds.Tables[0];
