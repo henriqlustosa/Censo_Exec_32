@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Censo_Exec_32", "Censo_Exec_32\Censo_Exec_32.csproj", "{201F3373-B91C-4D52-B32B-096EBB2B7D14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Debug|x64.ActiveCfg = Debug|x64
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Debug|x64.Build.0 = Debug|x64
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Debug|x86.ActiveCfg = Debug|x86
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Debug|x86.Build.0 = Debug|x86
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Release|x64.ActiveCfg = Release|x64
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Release|x64.Build.0 = Release|x64
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Release|x86.ActiveCfg = Release|x86
+		{201F3373-B91C-4D52-B32B-096EBB2B7D14}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0375F939-5379-4E53-9E07-6E602711E82A}
+	EndGlobalSection
+EndGlobal
